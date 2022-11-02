@@ -70,14 +70,7 @@ body {
   padding: 94px 0;
 }
 
-.section-title {
-  font-size: 36px;
-  text-align: center;
-  line-height: 1.67;
-  margin-bottom: 50px;
-}
-
-.herobtn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -96,7 +89,7 @@ body {
   height: 50px;
   border: none;
 }
-.herobtn:hover {
+.hero__btn:hover {
   background-color: #188ce8;
 }
 
@@ -317,7 +310,7 @@ body {
   pointer-events: none;
 }
 
-.web {
+.logo__text {
   color: var(--accentcolor);
   border: none;
 }
@@ -326,7 +319,7 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.header-logo {
+.header__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -336,25 +329,25 @@ body {
   padding: 24px 0;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
   margin-right: auto;
 }
 
-.contacts-list {
+.contacts {
   display: flex;
   align-items: center;
   gap: 50px;
   justify-content: center;
 }
 
-.nav-list {
+.menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -363,7 +356,7 @@ body {
   gap: 50px;
 }
 
-.nav-link {
+.header__link {
   padding: 32px 0;
   position: relative;
   font-weight: 500;
@@ -372,7 +365,7 @@ body {
   color: var(--maincolor);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:hover, .nav-link:focus {
+.header__link:hover, .header__link:focus {
   color: var(--accentcolor);
 }
 
@@ -390,7 +383,7 @@ body {
   background-color: var(--accentcolor);
 }
 
-.contact-item {
+.contact {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -402,11 +395,11 @@ body {
   color: var(--colorp);
 }
 
-.contact-link {
+.contact__link {
   color: var(--colorp);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-link:hover, .contact-link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accentcolor);
 }
 
@@ -418,12 +411,12 @@ body {
   color: var(--accentcolor);
 }
 
-.contact-icon {
+.icon__contact {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.hero {
+.hero__container {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -435,7 +428,7 @@ body {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -484,20 +477,27 @@ body {
   color: var(--colorp);
 }
 
-.about {
+.about__container {
   padding-top: 0;
 }
 
-.about-list {
+.about__title {
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.67;
+  margin-bottom: 50px;
+}
+
+.picture__list {
   display: flex;
   gap: 30px;
 }
 
-.about-item {
+.picture__item {
   position: relative;
 }
 
-.about-text {
+.picture__text {
   display: flex;
   background-color: rgba(47, 48, 58, 0.8);
   position: absolute;

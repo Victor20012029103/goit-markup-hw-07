@@ -1,4 +1,4 @@
-.web {
+.logo__text {
     color: var(--accentcolor);
     border: none;
 }
@@ -7,7 +7,7 @@
     border-bottom: 1px solid #ececec;
 }
 
-.header-logo {
+.header__logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -17,18 +17,18 @@
     padding: 24px 0;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
 
-.header-nav {
+.nav {
     display: flex;
     align-items: center;
     margin-right: auto;
 }
 
-.contacts-list {
+.contacts {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -37,7 +37,7 @@
 
 
 
-.nav-list {
+.menu {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -46,7 +46,7 @@
     gap: 50px;
 }
 
-.nav-link {
+.header__link {
     padding: 32px 0;
     position: relative;
     font-weight: 500;
@@ -54,31 +54,33 @@
     letter-spacing: 0.02em;
     color: var(--maincolor);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover,
-        &:focus {
-            color: var(--accentcolor);
-        }
+    &:focus {
+        color: var(--accentcolor);
+    }
 }
 
 
 
 .current {
     color: var(--accentcolor);
+
     &::after {
-            position: absolute;
-            content: "";
-            left: 0;
-            bottom: -3px;
-            width: 100%;
-            height: 4px;
-            border-radius: 2px;
-            background-color: var(--accentcolor);
-        }
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: var(--accentcolor);
+    }
 }
 
 
 
-.contact-item {
+.contact {
     display: flex;
     text-decoration: none;
     align-items: center;
@@ -90,26 +92,28 @@
     color: var(--colorp);
 }
 
-.contact-link {
+.contact__link {
     color: var(--colorp);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover,
-    &:focus { 
-            color: var(--accentcolor);
-        }
+    &:focus {
+        color: var(--accentcolor);
+    }
 }
 
 .contacts {
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover,
-       &:focus {
-            color: var(--accentcolor);
-        }
+    &:focus {
+        color: var(--accentcolor);
+    }
 }
 
 
-.contact-icon {
+.icon__contact {
     fill: currentColor;
     margin-right: 10px;
 }
